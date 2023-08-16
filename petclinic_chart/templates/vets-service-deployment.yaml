@@ -11,7 +11,7 @@ metadata:
   name: vets-service
   namespace: default
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       io.kompose.service: vets-service
